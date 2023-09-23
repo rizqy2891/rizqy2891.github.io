@@ -1,0 +1,74 @@
+body{
+    padding: 0;
+    margin: 0;
+
+    background-image: url(/img/backgroun1.jpg);
+}
+
+.element-with-border {
+    width: 100% auto;
+    height: 100% auto; 
+    border: 2px solid transparent; 
+    padding: 20px;
+    margin: 0 auto;
+    backdrop-filter: blur(10px);
+    background: rgba(199, 230, 230, 0.3); 
+  
+  }
+
+  .judul1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(199, 230, 230, 0.3);
+    text-shadow: 5px 5px 5px rgba(182, 206, 206, 0.3);
+  }
+
+  .border:hover {
+    background: linear-gradient(45deg, #6748efe0, #d36fd6); 
+    box-shadow: 5px 5px 10px red;
+  }
+  
+  
+
+  
+  .card {
+    width: 300px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+  }
+  
+  .card-content {
+    text-align: center;
+  }
+  
+  .card-content h2 {
+    margin-bottom: 10px;
+  }
+  
+  .card-content p {
+    font-size: 18px;
+  }
+  
+  .gradient-button:hover {
+    background: linear-gradient(45deg, #ef4848, #6f86d6); 
+  box-shadow: 5px 5px 10px red;
+  }
+
+  .judul_sevice{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    text-shadow: 3px 3px 10px red;
+    color:blue;
+  }
+
+   h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+  }
