@@ -83,3 +83,19 @@ button.active{
   font-size: 20px;
   color: #333;
 }
+
+.container {
+  width: 100%;
+}
+
+.card {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .col-sm-4 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
