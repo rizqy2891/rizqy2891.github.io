@@ -120,14 +120,15 @@ background: linear-gradient(45deg, #c0c0c0,#3326eb);
 }
 
 img {
-  width: 100%; /* Make the image width responsive */
-  height: auto; /* Maintain aspect ratio */
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
   border-radius: 50%;
 }
 
 #box2 {
-  width: 80%; /* Make the box width responsive */
-  max-width: 350px; /* Set a maximum width */
-  height: auto; /* Maintain aspect ratio */
+  width: 300px;
+  height: 360px;
   border-radius: 50%;
+  overflow: hidden; 
 }
