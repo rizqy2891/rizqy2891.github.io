@@ -136,24 +136,24 @@ img {
 @media (max-width: 768px) {
   .element-with-border {
     padding: 10px;
-    max-width: 90%; /* Adjusted max-width for responsiveness */
+    max-width: 90%; 
   }
 
   .judul1 {
-    font-size: 30px; /* Adjusted font size */
+    font-size: 30px; 
   }
 
   .judul3 {
-    font-size: 25px; /* Adjusted font size */
+    font-size: 25px; 
   }
 
   #box2 {
-    width: 150px; /* Adjusted width */
-    height: 180px; /* Adjusted height */
+    width: 150px;
+    height: 180px;
   }
 }
 
-/* Additional media query for smaller screens */
+
 @media (max-width: 576px) {
   .element-with-border {
     padding: 5px;
