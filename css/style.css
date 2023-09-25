@@ -133,30 +133,42 @@ img {
   overflow: hidden; 
 }
 
-@media (max-width: 1440px) {
-  body {
-    background-image: url(/img/backgroun1.jpg);
-  }
-
+@media (max-width: 768px) {
   .element-with-border {
-    max-width: 90%;
+    padding: 10px;
+    max-width: 90%; /* Adjusted max-width for responsiveness */
   }
 
   .judul1 {
-    font-size: 35px;
+    font-size: 30px; /* Adjusted font size */
   }
 
   .judul3 {
-    font-size: 30px;
+    font-size: 25px; /* Adjusted font size */
   }
 
   #box2 {
-    width: 200px;
-    height: 250px;
+    width: 150px; /* Adjusted width */
+    height: 180px; /* Adjusted height */
+  }
+}
 
+/* Additional media query for smaller screens */
+@media (max-width: 576px) {
+  .element-with-border {
+    padding: 5px;
   }
 
-  .element-with-border{
-    margin-bottom: 20px;
+  .judul1 {
+    font-size: 25px;
+  }
+
+  .judul3 {
+    font-size: 20px;
+  }
+
+  #box2 {
+    width: 100px;
+    height: 120px;
   }
 }
