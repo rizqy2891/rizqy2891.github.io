@@ -133,42 +133,28 @@ img {
   overflow: hidden; 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1440px) {
+  body {
+    background-image: url(/img/backgroun1.jpg);
+  }
+
   .element-with-border {
-    padding: 10px;
-    max-width: 90%; 
+    max-width: 90%;
   }
 
   .judul1 {
-    font-size: 30px; 
+    font-size: 35px;
   }
 
   .judul3 {
-    font-size: 25px; 
+    font-size: 30px;
   }
 
   #box2 {
-    width: 150px;
-    height: 180px;
-  }
-}
+    width: 200px;
+    height: 250px;
 
-
-@media (max-width: 576px) {
-  .element-with-border {
-    padding: 5px;
   }
 
-  .judul1 {
-    font-size: 25px;
-  }
 
-  .judul3 {
-    font-size: 20px;
-  }
-
-  #box2 {
-    width: 100px;
-    height: 120px;
-  }
 }
