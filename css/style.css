@@ -132,3 +132,31 @@ img {
   border-radius: 50%;
   overflow: hidden; 
 }
+
+@media (max-width: 1440px) {
+  body {
+    background-image: url(/img/backgroun1.jpg);
+  }
+
+  .element-with-border {
+    max-width: 90%;
+  }
+
+  .judul1 {
+    font-size: 35px;
+  }
+
+  .judul3 {
+    font-size: 30px;
+  }
+
+  #box2 {
+    width: 200px;
+    height: 250px;
+
+  }
+
+  .element-with-border{
+    margin-bottom: 20px;
+  }
+}
