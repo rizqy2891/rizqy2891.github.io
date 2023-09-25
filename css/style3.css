@@ -60,11 +60,25 @@ background-image: url(/img/backgroun1.jpg);
   }
 
   .element-with-border:hover{
-     background: linear-gradient(45deg, #ef4848, #6f86d6); /* Gradien saat hover */
+     background: linear-gradient(45deg, #ef4848, #6f86d6);
 box-shadow: 5px 5px 10px red;
   }
 
   .border:hover{
-    background: linear-gradient(45deg, #ef4848, #6f86d6); /* Gradien saat hover */
+    background: linear-gradient(45deg, #ef4848, #6f86d6); 
     box-shadow: 5px 5px 10px red
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #ff1100; 
+  }
+  
+  
+  .navbar-nav .nav-link.active:hover {
+    color: #ff2600; 
+  }
+  
+  
+  .navbar-nav .nav-link:hover {
+    background-color: #4b4747; 
   }

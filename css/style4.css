@@ -18,15 +18,17 @@ body{
   margin: 50px auto;
 }
 
-button{
+button {
   padding: 10px 20px;
   font-size: 18px;
-  background: #fff;
+  background: rgba(200, 240, 240, 0.5);
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  box-shadow: 0 0 10px rgb(0,0,0,0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
+
+
 
 .filter_buttons{
   display: flex;
@@ -98,4 +100,19 @@ button.active{
     width: 100%;
     margin-bottom: 20px;
   }
+}
+
+
+.navbar-nav .nav-link:hover {
+  color: #ff1100; 
+}
+
+
+.navbar-nav .nav-link.active:hover {
+  color: #ff2600; 
+}
+
+
+.navbar-nav .nav-link:hover {
+  background-color: #4b4747; 
 }

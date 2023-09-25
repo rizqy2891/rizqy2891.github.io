@@ -1,74 +1,132 @@
-body{
-    padding: 0;
-    margin: 0;
 
-    background-image: url(/img/backgroun1.jpg);
+@media only screen and (max-width: 768px) {
+  .box {
+      flex-direction: column; 
+      align-items: center; 
+  }
+
+  .element-with-border {
+      width: 100%; 
+  }
+
+  .judul1 {
+      font-size: 30px; 
+  }
+
+  .card {
+      width: 90%; 
+      height: 200px; 
+  }
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(/img/backgroun1.jpg);
 }
 
 .element-with-border {
-    width: 100% auto;
-    height: 100% auto; 
-    border: 2px solid transparent; 
-    padding: 20px;
-    margin: 0 auto;
-    backdrop-filter: blur(10px);
-    background: rgba(199, 230, 230, 0.3); 
-  
-  }
+  border: 2px solid transparent;
+  padding: 20px;
+  margin: 0 auto;
+  backdrop-filter: blur(10px);
+  background: rgba(199, 230, 230, 0.3);
+}
 
-  .judul1{
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 50px;
-    font-weight: bold;
-    color: rgba(199, 230, 230, 0.3);
-    text-shadow: 5px 5px 5px rgba(182, 206, 206, 0.3);
-  }
+.judul1 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgba(199, 230, 230, 0.3);
+  text-shadow: 5px 5px 5px rgba(182, 206, 206, 0.3);
+}
 
-  .border:hover {
-    background: linear-gradient(45deg, #6748efe0, #d36fd6); 
-    box-shadow: 5px 5px 10px red;
-  }
-  
-  
-
-  
-  .card {
-    width: 300px;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
-  }
-  
-  .card-content {
-    text-align: center;
-  }
-  
-  .card-content h2 {
-    margin-bottom: 10px;
-  }
-  
-  .card-content p {
-    font-size: 18px;
-  }
-  
-  .gradient-button:hover {
-    background: linear-gradient(45deg, #ef4848, #6f86d6); 
+.border:hover {
+  background: linear-gradient(45deg, #6748efe0, #d36fd6);
   box-shadow: 5px 5px 10px red;
-  }
+}
 
-  .judul_sevice{
-    text-align: center;
-    font-size: 50px;
-    margin-top: 20px;
-    text-shadow: 3px 3px 10px red;
-    color:blue;
-  }
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
 
-   h4{
-    font-family: 'Roboto', sans-serif;
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-  }
+.card {
+  flex: 1 1 calc(33.33% - 10px);
+  margin: 5px;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  margin: 10px;
+  border-radius: 10%;
+}
+
+.card .card-front, .card .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card .card-front {
+  background-color: black;
+  border-radius: 10%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card .card-back {
+  background-color: white;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotateY(180deg);
+  transition: transform 0.6s;
+  border-radius: 10%;
+}
+
+.card:hover .card-front {
+  transform: rotateY(180deg);
+}
+
+.card:hover .card-back {
+  transform: rotateY(0deg);
+}
+
+.dropdown-menu {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.card:hover {
+  background: linear-gradient(45deg, #6748efe0, #d36fd6);
+  box-shadow: 5px 5px 10px red;
+}
+
+.element-with-border:hover{
+  background: linear-gradient(45deg, #6748efe0, #d36fd6);
+  box-shadow: 5px 5px 10px red;
+
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff1100; 
+}
+
+
+.navbar-nav .nav-link.active:hover {
+  color: #ff2600; 
+}
+
+
+.navbar-nav .nav-link:hover {
+  background-color: #4b4747; 
+}
