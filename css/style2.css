@@ -24,8 +24,9 @@ body {
 }
 
 .element-with-border {
+  width: 100%;
   border: 2px solid transparent;
-  padding: 20px;
+  padding: 10px;
   margin: 0 auto;
   backdrop-filter: blur(10px);
   background: rgba(199, 230, 230, 0.3);
@@ -59,7 +60,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.card:hover {
+#border:hover {
   background: linear-gradient(45deg, #6748efe0, #d36fd6);
   box-shadow: 5px 5px 10px red;
 }
@@ -126,8 +127,8 @@ body {
 }
 
 .card .card-img {
-  width: 300px; /* Ubah 300% menjadi 100% agar sama dengan lebar kartu */
-  height: 300px; /* Ubah 50% menjadi 100% agar sama dengan tinggi kartu */
+  width: 300px; 
+  height: 300px; 
 
   border-radius: 10px;
 }
@@ -147,4 +148,40 @@ body {
 
 
 
+#border{
+ 
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8); 
+    border: 2px solid rgba(255, 0, 150, 1); 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(255, 0, 150, 0.5);
+    overflow: hidden; 
+  
+   
+    background-image: linear-gradient(90deg, rgba(255, 0, 150, 1), rgba(0, 0, 0, 0));
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 0.5s;
+    
+  
+  
+}
+
+
+
+.progress-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Tambahkan jarak antar progress bar */
+}
+
+.progress-bar {
+  max-width: 100px; /* Atur lebar maksimum progress bar */
+  white-space: nowrap; /* Agar teks tidak terlipat ke bawah */
+  overflow: hidden; /* Sembunyikan teks yang melebihi lebar */
+  text-overflow: ellipsis; /* Tampilkan elipsis jika teks terlalu panjang */
+}
 

@@ -10,6 +10,21 @@ body{
 
 }
 
+.element-with-border:hover{
+  background: linear-gradient(45deg, #ef4848, #6f86d6); 
+  box-shadow: 5px 5px 10px red;
+}
+
+
+.element-with-border {
+  border: 2px solid transparent;
+  padding: 20px;
+  margin: 0 auto;
+  backdrop-filter: blur(10px);
+  background: rgba(199, 230, 230, 0.3);
+}
+
+
 .container1 {
   position: relative;
   max-width: 1350px;
@@ -117,3 +132,13 @@ button.active{
   background-color: #4b4747; 
 }
 
+button:hover {
+  background: linear-gradient(45deg, #ef4848, #6f86d6); 
+box-shadow: 5px 5px 10px red;
+}
+
+
+.card:hover{
+  background: linear-gradient(45deg, #ef4848, #6f86d6); 
+  box-shadow: 5px 5px 10px red;
+}
