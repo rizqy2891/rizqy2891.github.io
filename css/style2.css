@@ -172,16 +172,4 @@ body {
 
 
 
-.progress-container {
-  display: flex;
-  flex-direction: column;
-  gap: 10px; /* Tambahkan jarak antar progress bar */
-}
-
-.progress-bar {
-  max-width: 100px; /* Atur lebar maksimum progress bar */
-  white-space: nowrap; /* Agar teks tidak terlipat ke bawah */
-  overflow: hidden; /* Sembunyikan teks yang melebihi lebar */
-  text-overflow: ellipsis; /* Tampilkan elipsis jika teks terlalu panjang */
-}
 
