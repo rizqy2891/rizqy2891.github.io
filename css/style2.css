@@ -13,10 +13,7 @@
       font-size: 30px; 
   }
 
-  .card {
-      width: 90%; 
-      height: 200px; 
-  }
+
 }
 
 
@@ -54,51 +51,7 @@ body {
   justify-content: flex-start;
 }
 
-.card {
-  flex: 1 1 calc(33.33% - 10px);
-  margin: 5px;
-  position: relative;
-  width: 300px;
-  height: 300px;
-  perspective: 1000px;
-  margin: 10px;
-  border-radius: 10%;
-}
 
-.card .card-front, .card .card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-}
-
-.card .card-front {
-  background-color: black;
-  border-radius: 10%;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.card .card-back {
-  background-color: white;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transform: rotateY(180deg);
-  transition: transform 0.6s;
-  border-radius: 10%;
-}
-
-.card:hover .card-front {
-  transform: rotateY(180deg);
-}
-
-.card:hover .card-back {
-  transform: rotateY(0deg);
-}
 
 .dropdown-menu {
   backdrop-filter: blur(10px);
@@ -130,3 +83,68 @@ body {
 .navbar-nav .nav-link:hover {
   background-color: #4b4747; 
 }
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: transform 0.6s;
+}
+
+.card-front {
+  transform: rotateY(0deg);
+}
+
+.card-back {
+  transform: rotateY(180deg);
+}
+
+.card:hover .card-front {
+  transform: rotateY(180deg);
+}
+
+.card:hover .card-back {
+  transform: rotateY(0deg);
+}
+
+.card .card-img {
+  width: 300px; /* Ubah 300% menjadi 100% agar sama dengan lebar kartu */
+  height: 300px; /* Ubah 50% menjadi 100% agar sama dengan tinggi kartu */
+
+  border-radius: 10px;
+}
+
+.card-text {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+
+
