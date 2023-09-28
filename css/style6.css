@@ -16,49 +16,25 @@ background-image: url(/img/backgroun1.jpg);
   
   }
 
-  .element-with-border2 {
-    width: 100% auto;
-    height: 100% auto; 
-    border: 2px solid transparent; 
-    padding: 20px;
-    margin: 0 auto;
-    backdrop-filter: blur(10px);
-    background: rgba(199, 230, 230, 0.3); 
-    
-  
-  }
-
-  h3{
-    font-size: 50px;
-  font-weight: bold;
-  color: rgba(199, 230, 230, 0.3);
-  text-shadow: 5px 5px 5px rgba(182, 206, 206, 0.3);
-  }
-
-  h4{
+  h1{
     text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     color: rgba(199, 230, 230, 0.3);
     text-shadow: 5px 5px 5px rgba(182, 206, 206, 0.3);
   }
 
-  .element-with-border:hover {
-    background: linear-gradient(45deg, #6748efe0, #d36fd6); 
-  box-shadow: 5px 5px 10px red;
-  background-position: 0;
+
+  h2{
+   
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(199, 230, 230, 0.3);
+    text-shadow: 5px 5px 5px rgba(182, 206, 206, 0.3);
   }
 
-  .element-with-border2:hover {
-    background: linear-gradient(45deg, #6748efe0, #d36fd6); 
-  box-shadow: 5px 5px 10px red;
-  background-position: 0;
-  }
 
-  
   .gradient-button {
-    margin-bottom: 10px;
     display: inline-block;
     padding: 15px 30px;
     font-size: 18px;
@@ -69,21 +45,49 @@ background-image: url(/img/backgroun1.jpg);
     border-radius: 5px;
     background: linear-gradient(45deg, #6b6eff, #556270); 
     transition: latar-belakang 0.3s ease;
-
+    margin-bottom: 30px;
   }
-  
+   
   .gradient-button:hover {
     background: linear-gradient(45deg, #ef4848, #6f86d6); 
   box-shadow: 5px 5px 10px red;
   }
+  
 
-  .social-media-icon .fab {
-    font-size: 30px;
-    background-color: white;
+
+.box {
+    border: 2px solid white;
+    width: 400px;
+    height: 200px;
+    margin-bottom: 30px;
   }
+  
+
+  @media (max-width: 360px) {
+    .box {
+      width: 90%; 
+      height: 150px; 
+
+      
+      
+    }
+
+    textarea.form-control {
+        width: 90%;
+ 
+  }
+
+  input.form-control {
+    width: 90%; 
+  }
+  
+  }
+
+
   
 .label {
     text-align: center;
     margin-top: 30px;
     background-color: #ef4848;
 }
+

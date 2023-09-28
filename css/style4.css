@@ -143,3 +143,10 @@ box-shadow: 5px 5px 10px red;
   background: linear-gradient(45deg, #ef4848, #6f86d6); 
   box-shadow: 5px 5px 10px red;
 }
+
+
+.label {
+  text-align: center;
+  margin-top: 30px;
+  background-color: #ef4848;
+}
