@@ -69,7 +69,8 @@ button.active{
 .card{
   flex-grow: 1;
   flex-basis: 300px;
-  background-color: #fff;
+  backdrop-filter: blur(10px);
+  background: rgba(199, 230, 230, 0.3);
   padding: 3px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgb(0,0,0,0.05);
