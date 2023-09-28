@@ -16,18 +16,3 @@ background-image: url(/img/backgroun1.jpg);
   
   }
 
-.kartu{
-    border: 2px solid transparent;
-    height: 300px auto;
-    width: 300px auto;
-    backdrop-filter: blur(10px);
-    background: rgba(199, 230, 230, 0.3); 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    border-radius: 10px;
-    flex-wrap: wrap;
-}
- 
