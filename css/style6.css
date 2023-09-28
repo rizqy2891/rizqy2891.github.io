@@ -80,6 +80,13 @@ background-image: url(/img/backgroun1.jpg);
   input.form-control {
     width: 90%; 
   }
+
+  .social-media-icon .fab {
+    font-size: 30px;
+   margin-top: 10px;
+   
+  }
+  
   
   }
 
@@ -91,3 +98,12 @@ background-image: url(/img/backgroun1.jpg);
     background-color: #ef4848;
 }
 
+
+
+  
+  .social-media-icon .fab {
+    font-size: 30px;
+   
+   
+  }
+  
