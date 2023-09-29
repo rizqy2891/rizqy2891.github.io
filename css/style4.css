@@ -24,6 +24,15 @@ body{
   background: rgba(199, 230, 230, 0.3);
 }
 
+.element-with-border2 {
+  border: 2px solid transparent;
+  padding: 20px;
+  margin: 0 auto;
+  backdrop-filter: blur(10px);
+  background: rgba(199, 230, 230, 0.3);
+}
+
+
 
 .container1 {
   position: relative;
@@ -81,7 +90,7 @@ button.active{
 
 .card .img {
   width: 100%;
-  height: 210px;
+  height: 200px;
   object-fit: cover;
   border-radius: 8px 8px 0 0 ;
 }
@@ -150,3 +159,4 @@ box-shadow: 5px 5px 10px red;
   margin-top: 30px;
   background-color: #ef4848;
 }
+

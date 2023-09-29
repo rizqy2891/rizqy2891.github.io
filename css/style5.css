@@ -84,3 +84,10 @@ background-image: url(/img/backgroun1.jpg);
     background-color: #ef4848;
 }
 
+@media screen (max-width: 360px) {
+  .img1{
+    height: 20%;
+
+  }
+}
+
