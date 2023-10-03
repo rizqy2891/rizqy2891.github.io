@@ -4,6 +4,8 @@ body{
 background-image: url(/img/backgroun1.jpg);
 }
 
+
+
 .element-with-border {
     width: 100% auto;
     height: 100% auto; 
@@ -26,48 +28,20 @@ background-image: url(/img/backgroun1.jpg);
 
   }
 
-  img{
-    height: 300px;
-    width: 300px;
+  .border:hover{
+    background: linear-gradient(45deg, #ef4848, #6f86d6);
+    box-shadow: 5px 5px 10px red;
   }
 
 
-  .carousel {
-   
-    width: 100%;
-    max-width: 1000px;
-    max-height: 400px;
-    margin: 0 auto;
-    overflow: hidden;
-    position: relative;
-  }
 
-  .carousel img {
-    width: 100%;
-    height: 500px auto;
-    display: block;
-    margin-bottom: 40px ;
-  }
-
-  .carousel .slides {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
-
-  .carousel .slide {
-    min-width: 100%;
-    box-sizing: border-box;
-  }
 
   .element-with-border:hover{
      background: linear-gradient(45deg, #ef4848, #6f86d6);
 box-shadow: 5px 5px 10px red;
   }
 
-  #border:hover{
-    background: linear-gradient(45deg, #ef4848, #6f86d6); 
-    box-shadow: 5px 5px 10px red
-  }
+
 
   .navbar-nav .nav-link:hover {
     color: #ff1100; 
@@ -89,30 +63,9 @@ box-shadow: 5px 5px 10px red;
   
   .label {
     text-align: center;
-    margin-top: 30px;
     background-color: #ef4848;
   }
   
-  #border{
- 
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    margin: 0 auto;
-    background: rgba(0, 0, 0, 0.8); 
-    border: 2px solid rgba(255, 0, 150, 1); 
-    border-radius: 10px; 
-    box-shadow: 0 0 10px rgba(255, 0, 150, 0.5);
-    overflow: hidden; 
-  
-   
-    background-image: linear-gradient(90deg, rgba(255, 0, 150, 1), rgba(0, 0, 0, 0));
-    background-size: 200% 100%;
-    background-position: 100%;
-    transition: background-position 0.5s;
-    
-  
-  
-}
+
 
   

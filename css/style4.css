@@ -10,11 +10,13 @@ body{
 
 }
 
+
+
+
 .element-with-border:hover{
   background: linear-gradient(45deg, #ef4848, #6f86d6); 
   box-shadow: 5px 5px 10px red;
 }
-
 
 .element-with-border {
   border: 2px solid transparent;
@@ -23,6 +25,7 @@ body{
   backdrop-filter: blur(10px);
   background: rgba(199, 230, 230, 0.3);
 }
+
 
 .element-with-border2 {
   border: 2px solid transparent;
@@ -156,7 +159,7 @@ box-shadow: 5px 5px 10px red;
 
 .label {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
   background-color: #ef4848;
 }
 

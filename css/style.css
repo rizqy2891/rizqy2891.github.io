@@ -31,20 +31,13 @@ body{
 
 .element-with-border {
   width: 100%;
-  height: 100%;
-  padding: 20px;
+  border: 2px solid transparent;
+  padding: 10px;
   margin: 0 auto;
-  background: rgba(0, 0, 0, 0.8); 
-  border: 2px solid rgba(255, 0, 150, 1); 
-  border-radius: 10px; 
-  box-shadow: 0 0 10px rgba(255, 0, 150, 0.5);
-  overflow: hidden; 
-
+  backdrop-filter: blur(10px);
+  background: rgba(199, 230, 230, 0.3);
+  margin-bottom: 20px;
  
-  background-image: linear-gradient(90deg, rgba(255, 0, 150, 1), rgba(0, 0, 0, 0));
-  background-size: 200% 100%;
-  background-position: 100%;
-  transition: background-position 0.5s;
 }
 
 
@@ -113,7 +106,13 @@ background-position: 0;
 box-shadow: 5px 5px 10px red;
 }
 
-
+.label {
+  text-align: center;
+  margin-top:  236px ;
+  height: 50px;
+  background-color:  #ef4848;
+  
+}
 
 #box2:hover {
 background: linear-gradient(45deg, #c0c0c0,#3326eb);
