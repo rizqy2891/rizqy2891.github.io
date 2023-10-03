@@ -48,6 +48,7 @@ background-image: url(/img/backgroun1.jpg);
     background: linear-gradient(45deg, #6748efe0, #d36fd6); 
   box-shadow: 5px 5px 10px red;
   background-position: 0;
+  color: white;
   }
 
   .element-with-border2:hover {
@@ -79,6 +80,7 @@ background-image: url(/img/backgroun1.jpg);
 
 
 .label {
+
     text-align: center;
     margin-top: 30px;
     background-color: #ef4848;
